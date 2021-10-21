@@ -37,7 +37,7 @@ export default function Home() {
                 <link rel="icon" href="/hanyangLion.ico"/>
             </Head>
 
-            <main className={styles.main}>
+            <div className={styles.main}>
                 <div className={styles.logo}>
                     <div className={styles.logo_image}>
                         <Image src={logo} alt={"한양사자"}/>
@@ -52,7 +52,7 @@ export default function Home() {
                     </div>
                     : null
                 }
-            </main>
+            </div>
         </div>
     );
 }
