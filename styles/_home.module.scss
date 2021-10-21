@@ -80,7 +80,7 @@
   padding-left: 10px;
   font-size: 1.2em;
   font-weight: bold;
-  max-width: 100%;
+  width: 50%;
 
   &:focus {
     outline: none;
@@ -128,5 +128,14 @@
 
   .invalidMsg {
     font-size: 1.2em;
+  }
+
+  .searchBar_icon___empty {
+    @include searchBar_icon();
+    color: grey;
+  }
+
+  .searchBar_icon___filled {
+    @include searchBar_icon();
   }
 }
