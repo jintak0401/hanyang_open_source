@@ -1,5 +1,9 @@
 @import "variables.module";
 
+.container {
+  background-color: tomato;
+}
+
 .main {
   display: flex;
   flex-direction: column;

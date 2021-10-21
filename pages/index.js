@@ -30,7 +30,7 @@ export default function Home() {
     };
 
     return (
-        <div>
+        <div className={styles.container}>
             <Head>
                 <title>한양대학교 오픈소스</title>
                 <meta name="description" content="한양대생들이 오픈소스에 기여하는 기회를 제공하기 위해 제작하였습니다."/>
@@ -42,7 +42,7 @@ export default function Home() {
                     <div className={styles.logo_image}>
                         <Image src={logo} alt={"한양사자"}/>
                     </div>
-                    <span className={styles.logo_text}>한양오픈소스</span>
+                    <div className={styles.logo_text}>한양오픈소스</div>
                 </div>
                 <SearchBar text={inputId} route={route} setText={setInputId}/>
                 {notInData ?
