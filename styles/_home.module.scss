@@ -1,0 +1,126 @@
+@import "variables.module";
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-blue-color;
+  width: 100vw;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo_image {
+  width: 130px;
+  height: 130px;
+}
+
+@mixin _logo_text() {
+  color: white;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.logo_text {
+  @include _logo_text();
+  font-size: 42px;
+}
+
+.header {
+  background-color: $primary-blue-color;
+}
+
+.homeButton {
+  display: inline-flex;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.homeButton_image {
+
+}
+
+.homeButton_text {
+  font-weight: bold;
+  font-size: 1.8em;
+  margin: 0 10px;
+  color: white;
+  display: inline;
+}
+
+.searchBar {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  border-radius: 100px;
+  width: min(900px, 85vw);
+  padding-left: 20px;
+  height: 60px;
+  background-color: white;
+}
+
+.searchBar_text {
+  flex-grow: 2;
+  border: none;
+  background-color: transparent;
+  padding-left: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+@mixin searchBar_icon() {
+  font-size: 30px;
+  align-self: center;
+  justify-self: center;
+}
+
+.searchBar_icon___empty {
+  @include searchBar_icon();
+  color: grey;
+}
+
+.searchBar_icon___filled {
+  @include searchBar_icon();
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.invalidMsg {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.6em;
+  margin: max(20px, 5vh);
+  color: white;
+  line-height: 2;
+}
+
+@media (max-width: 800px) {
+  .logo_image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logo_text {
+    @include _logo_text();
+    font-size: 35px;
+  }
+
+  .invalidMsg {
+    font-size: 1.2em;
+  }
+}

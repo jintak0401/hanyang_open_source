@@ -1,0 +1,32 @@
+.Post {
+  justify-items: center;
+  padding: 70px 100px;
+}
+
+.Post_title {
+  font-weight: bold;
+  font-size: 42px;
+  padding-bottom: 70px;
+}
+
+.Post_body {
+  line-height: 2;
+  white-space: pre-line;
+  font-size: 22px;
+}
+
+@media (max-width: 800px) {
+  .Post {
+    padding: 70px 20px;
+  }
+
+  .Post_title {
+    font-size: 28px;
+    padding-bottom: 40px;
+  }
+
+  .Post_body {
+    line-height: 1.8;
+    font-size: 18px;
+  }
+}

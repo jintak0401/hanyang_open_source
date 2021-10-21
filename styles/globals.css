@@ -1,16 +1,30 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, lv1, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@font-face {
+    font-family: "lv1";
+    src: url("/fonts/lv1_regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "lv1_bold";
+    src: url("/fonts/lv1_bold.ttf") format("truetype");
+}
+
+input {
+    font-family: lv1;
+}
+
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
