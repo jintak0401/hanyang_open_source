@@ -1,10 +1,7 @@
 @import "variables.module";
 
 .container {
-  background-color: tomato;
-  width: 100vw;
   height: 100vh;
-  margin: 0;
 }
 
 .main {
@@ -13,8 +10,8 @@
   justify-content: center;
   align-items: center;
   background-color: $primary-blue-color;
-  min-width: 100vw;
-  min-height: 100vh;
+  height: 100%;
+  margin: 0;
 }
 
 .logo {

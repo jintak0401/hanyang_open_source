@@ -30,7 +30,7 @@ export default function Home() {
     };
 
     return (
-        <div>
+        <div className={styles.container}>
             <Head>
                 <title>한양대학교 오픈소스</title>
                 <meta name="description" content="한양대생들이 오픈소스에 기여하는 기회를 제공하기 위해 제작하였습니다."/>
