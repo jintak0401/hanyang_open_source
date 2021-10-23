@@ -21,6 +21,11 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .logo_image {
@@ -74,7 +79,6 @@
 }
 
 .searchBar_text {
-  flex-grow: 2;
   border: none;
   background-color: transparent;
   padding-left: 10px;

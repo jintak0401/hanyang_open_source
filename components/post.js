@@ -6,8 +6,8 @@ const data = require("@data");
 function Post({id}) {
     return id ? (
         <div className={styles.Post}>
-            <div className={styles.Post_title}>{data[id]?.['title']}</div>
-            <div className={styles.Post_body}>{data[id]?.['body']}</div>
+            <div className={styles.Post_title}>{data[id]?.['title'].trim()}</div>
+            <div className={styles.Post_body}>{data[id]?.['body'].trim()}</div>
         </div>
     ) : <div>loading</div>;
 }
