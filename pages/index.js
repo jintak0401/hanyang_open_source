@@ -45,13 +45,15 @@ export default function Home() {
                     <div className={styles.logo_text}>한양오픈소스</div>
                 </div>
                 <SearchBar text={inputId} route={route} setText={setInputId}/>
-                {notInData ?
-                    <div className={styles.invalidMsg}>
-                        <div>"{invalidId}"로 작성된 글이 없네요...</div>
-                        <div>잘 입력하신게 맞나요???</div>
+                    <div className={styles.msg}>
+                        {notInData ?
+                            (<>
+                                <div>"{invalidId}"로 작성된 글이 없네요...</div>
+                                <div>잘 입력하신게 맞나요???</div>
+                            </>) :
+                            <div>예시로 "jintak0401"을 검색해보세요</div>
+                        }
                     </div>
-                    : null
-                }
             </div>
         </div>
     );
