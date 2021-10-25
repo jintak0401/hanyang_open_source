@@ -13,9 +13,9 @@
   * [4.commit 하기](#4.commit-하기)
     * [4-1.웹에서 commit 하기](#4-1.웹에서-commit-하기)
     * [4-2.로컬에서 commit & push 하기](#4-2.로컬에서-commit-&-push-하기)
-  * [5.Pull Request](#5.Pull-Request)
+  * [5.Pull Request](#5.pull-request)
 * [어디에서 어떻게 확인하나요?](#어디에서-어떻게-확인하나요?)
-* [이 외에 어떻게 기여하나요?](#이-외에-어떻게-기여하나요?)
+* [이 외에 어떻게 기여하나요?](#기타)
 ---
 ## 이 프로젝트는 뭔가요?
 
@@ -125,7 +125,7 @@ export {
 
 그리고 위의 순서대로 커밋 메시지를 작성하고 커밋하세요.
 `https://github.com/HashDigest/hanyang_open_source/tree/브랜치이름` 에 돌아가셔서 확인해보시면 작성하신 파일이 `data/`디렉토리에 반영되어 있을 것입니다.
-[5.Pull Request](#5.Pull-Request)로 가서 PR을 보내세요.
+[5.Pull Request](#5.pull-request)로 가서 PR을 보내세요.
 
 #### 4-2.로컬에서 commit & push 하기
 
@@ -165,7 +165,7 @@ $ git push origin 브랜치이름
 
 ---
 
-## 이 외에 어떻게 기여하나요?
+## 기타
 
 이 외에도 기여하려고 하신다니... 정말 감사드립니다. 데이터 추가 외에 기여하실 수 있는 방법은 다음과 같습니다.
 
