@@ -5,10 +5,10 @@
 ## 목차
 - [이 프로젝트는 뭔가요?](#이-프로젝트는-뭔가요)
 - [어떻게 참여하나요?](#어떻게-참여하나요)
-  - [fork 하기](#fork-하기)
-  - [branch 생성하고 변경하기](#branch-생성하고-변경하기)
-     - [웹에서 branch 생성하고 변경하기](#웹에서-branch-생성하고-변경하기)
-     - [로컬에서 branch 생성하고 변경하기](#로컬에서-branch-생성하고-변경하기)
+  - [1. fork 하기](#1.-fork-하기)
+  - [2. branch 생성하고 변경하기](#2.-branch-생성하고-변경하기)
+     - [2-1. 웹에서 branch 생성하고 변경하기](#2-1.-웹에서-branch-생성하고-변경하기)
+     - [2-2. 로컬에서 branch 생성하고 변경하기](#2-2.-로컬에서-branch-생성하고-변경하기)
   - [데이터 추가하기](#데이터-추가하기)
   - [commit 하기](#commit-하기)
     - [웹에서 commit 하기](#웹에서-commit-하기)
@@ -29,18 +29,18 @@
 ---
 ## 어떻게 참여하나요?
 
-### fork 하기
+### 1. fork 하기
 
 ![fork](./images/fork.png)
 
 `jintak0401/hanyang_open_source`에서 우측의 fork 버튼을 눌러서 여러분의 repository에 `hanyang_open_source`를 여러분 repository에 fork하세요.
 
-### branch 생성하고 변경하기
+### 2. branch 생성하고 변경하기
 
 웹으로 참여하실 분들은 [웹에서 branch 생성하고 변경하기](#웹에서-branch-생성하고-변경하기)를, 
 로컬에서 참여하실 분들은 [로컬에서 branch 생성하고 변경하기](#로컬에서-branch-생성하고-변경하기)를 참고해주세요.
 
-#### 웹에서 branch 생성하고 변경하기
+#### 2-1. 웹에서 branch 생성하고 변경하기
 
 ![make branch](./images/makeBranch.png)
 
@@ -50,9 +50,9 @@
 ![web editor](./images/webEditor.png)
 
 그 url에서 `.com`을 `.dev`으로 변경해주세요. 그러면 위 그림과 같은 웹 에디터를 보실 수 있습니다.
-이제 [3.데이터 추가하기](#3.데이터-추가하기)로 가서 파일을 추가하세요
+이제 [데이터 추가하기](#데이터-추가하기)로 가서 파일을 추가하세요
 
-#### 로컬에서 branch 생성하고 변경하기
+#### 2-2. 로컬에서 branch 생성하고 변경하기
 
 ![clone](./images/clone.png)
 
