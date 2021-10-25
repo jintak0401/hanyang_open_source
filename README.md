@@ -3,34 +3,19 @@
 프로젝트 결과물은 [이 곳](https://hanyang-open-source.vercel.app/) 에서 확인할 수 있습니다.
 
 ## 목차
-* [이 프로젝트는 뭔가요?](#이-프로젝트는-뭔가요)
-* [어떻게 참여하나요?](#어떻게-참여하나요)
-  * [fork 하기](#fork-하기)
-  * [branch 생성하고 변경하기](#branch-생성하고-변경하기)
-     * [웹에서 branch 생성하고 변경하기](#웹에서-branch-생성하고-변경하기)
-     * [로컬에서 branch 생성하고 변경하기](#로컬에서-branch-생성하고-변경하기)
-  * [데이터 추가하기](#데이터-추가하기)
-  * [commit 하기](#commit-하기)
-    * [웹에서 commit 하기](#웹에서-commit-하기)
-    * [로컬에서 commit 하기](#로컬에서-commit-하기)
-  * [Pull Request](#pull-request)
-* [어디에서 어떻게 확인하나요?](#어디에서-어떻게-확인하나요)
-* [이 외에 어떻게 기여하나요?](#이-외에-어떻게-기여하나요)
-
-## 목차
-- [이 프로젝트는 뭔가요?](#--)
-- [어떻게 참여하나요?](#-)
-  - [fork 하기](#fork-)
-  - [branch 생성하고 변경하기](#branch--)
-    - [웹에서 branch 생성하고 변경하기](#-branch--)
-    - [로컬에서 branch 생성하고 변경하기](#-branch--)
-  - [데이터 추가하기](#-)
-  - [commit 하기](#commit-)
-    - [웹에서 commit 하기](#-commit-)
-    - [로컬에서 commit 하기](#-commit-)
+- [이 프로젝트는 뭔가요?](#이-프로젝트는-뭔가요)
+- [어떻게 참여하나요?](#어떻게-참여하나요)
+  - [fork 하기](#fork-하기)
+  - [branch 생성하고 변경하기](#branch-생성하고-변경하기)
+     - [웹에서 branch 생성하고 변경하기](#웹에서-branch-생성하고-변경하기)
+     - [로컬에서 branch 생성하고 변경하기](#로컬에서-branch-생성하고-변경하기)
+  - [데이터 추가하기](#데이터-추가하기)
+  - [commit 하기](#commit-하기)
+    - [웹에서 commit 하기](#웹에서-commit-하기)
+    - [로컬에서 commit & push 하기](#로컬에서-commit--push-하기)
   - [Pull Request](#pull-request)
-- [어디에서 어떻게 확인하나요?](#--)
-- [이 외에 어떻게 기여하나요?](#---)
+- [어디에서 어떻게 확인하나요?](#어디에서-어떻게-확인하나요)
+- [이 외에 어떻게 기여하나요?](#이-외에-어떻게-기여하나요)
 ---
 ## 이 프로젝트는 뭔가요?
 
@@ -132,7 +117,7 @@ export {
 ### commit 하기
 
 웹으로 참여하시는 분들은 [웹에서 commit 하기](#웹에서-commit-하기)를,
-로컬에서 참여하시는 분들은 [로컬에서 commit 하기](#로컬에서-commit-하기)를 참고해주세요.
+로컬에서 참여하시는 분들은 [로컬에서 commit & push 하기](#로컬에서-commit--push-하기)를 참고해주세요.
 
 #### 웹에서 commit 하기
 
@@ -142,7 +127,7 @@ export {
 `https://github.com/HashDigest/hanyang_open_source/tree/브랜치이름` 에 돌아가셔서 확인해보시면 작성하신 파일이 `data/`디렉토리에 반영되어 있을 것입니다.
 [Pull Request](#pull-request)로 가서 PR을 보내세요.
 
-#### 로컬에서 commit 하기
+#### 로컬에서 commit & push 하기
 
 ![terminal2](./images/terminal2.png)
 
