@@ -20,7 +20,7 @@ function SearchBar({text, setText, route}) {
             <form className={styles.searchBar} onSubmit={onSubmit}>
                 <AiOutlineSearch className={styles[`searchBar_icon___${text === '' ? 'empty' : 'filled'}`]}
                                  onClick={onClick}/>
-                <input className={styles.searchBar_text} onChange={onChange} value={text}
+                <input className={styles.searchBar_text} type={"text"} onChange={onChange} value={text}
                        placeholder={'아이디를 검색하세요'}/>
             </form>
         </div>

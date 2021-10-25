@@ -32,7 +32,7 @@ export default function Home() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>한양대학교 오픈소스</title>
+                <title>한양오픈소스 프로젝트</title>
                 <meta name="description" content="한양대생들이 오픈소스에 기여하는 기회를 제공하기 위해 제작하였습니다."/>
                 <link rel="icon" href="/hanyangLion.ico"/>
             </Head>
