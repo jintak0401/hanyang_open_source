@@ -125,7 +125,7 @@ export {
 
 그리고 위의 순서대로 커밋 메시지를 작성하고 커밋하세요.
 `https://github.com/HashDigest/hanyang_open_source/tree/브랜치이름` 에 돌아가셔서 확인해보시면 작성하신 파일이 `data/`디렉토리에 반영되어 있을 것입니다.
-[Pull Request](#pull-request)로 가서 PR을 보내세요.
+[5. Pull Request](#5-pull-request)로 가서 PR을 보내세요.
 
 #### 4-2. 로컬에서 commit & push 하기
 
