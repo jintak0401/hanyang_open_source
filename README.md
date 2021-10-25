@@ -9,11 +9,11 @@
   - [2. branch 생성하고 변경하기](#2-branch-생성하고-변경하기)
      - [2-1. 웹에서 branch 생성하고 변경하기](#2-1-웹에서-branch-생성하고-변경하기)
      - [2-2. 로컬에서 branch 생성하고 변경하기](#2-2-로컬에서-branch-생성하고-변경하기)
-  - [데이터 추가하기](#데이터-추가하기)
-  - [commit 하기](#commit-하기)
-    - [웹에서 commit 하기](#웹에서-commit-하기)
-    - [로컬에서 commit & push 하기](#로컬에서-commit--push-하기)
-  - [Pull Request](#pull-request)
+  - [3. 데이터 추가하기](#3-데이터-추가하기)
+  - [4. commit 하기](#4-commit-하기)
+    - [4-1. 웹에서 commit 하기](#4-1-웹에서-commit-하기)
+    - [4-2. 로컬에서 commit & push 하기](#4-2-로컬에서-commit--push-하기)
+  - [5. Pull Request](#5-pull-request)
 - [어디에서 어떻게 확인하나요?](#어디에서-어떻게-확인하나요)
 - [이 외에 어떻게 기여하나요?](#이-외에-어떻게-기여하나요)
 ---
@@ -37,8 +37,8 @@
 
 ### 2. branch 생성하고 변경하기
 
-웹으로 참여하실 분들은 [웹에서 branch 생성하고 변경하기](#웹에서-branch-생성하고-변경하기)를, 
-로컬에서 참여하실 분들은 [로컬에서 branch 생성하고 변경하기](#로컬에서-branch-생성하고-변경하기)를 참고해주세요.
+웹으로 참여하실 분들은 [2-1. 웹에서 branch 생성하고 변경하기](#2-1-웹에서-branch-생성하고-변경하기)를, 
+로컬에서 참여하실 분들은 [2-2. 로컬에서 branch 생성하고 변경하기](#2-2-로컬에서-branch-생성하고-변경하기)를 참고해주세요.
 
 #### 2-1. 웹에서 branch 생성하고 변경하기
 
@@ -50,7 +50,7 @@
 ![web editor](./images/webEditor.png)
 
 그 url에서 `.com`을 `.dev`으로 변경해주세요. 그러면 위 그림과 같은 웹 에디터를 보실 수 있습니다.
-이제 [데이터 추가하기](#데이터-추가하기)로 가서 파일을 추가하세요
+이제 [3. 데이터 추가하기](#3-데이터-추가하기)로 가서 파일을 추가하세요
 
 #### 2-2. 로컬에서 branch 생성하고 변경하기
 
@@ -81,7 +81,7 @@ $ git checkout 브랜치이름
 
 clone한 hanyang_open_source 프로젝트를 원하는 IDE로 열어주세요.
 
-### 데이터 추가하기
+### 3. 데이터 추가하기
 ![step1](./images/step1.png)
 
 `data/`디렉토리를 보시면 `template.js`라는 파일이 있습니다. 이 파일을 복사해서 `여러분ID.js` 파일을 만들어주세요.
@@ -114,12 +114,12 @@ export {
 }
 ```
 
-### commit 하기
+### 4. commit 하기
 
-웹으로 참여하시는 분들은 [웹에서 commit 하기](#웹에서-commit-하기)를,
-로컬에서 참여하시는 분들은 [로컬에서 commit & push 하기](#로컬에서-commit--push-하기)를 참고해주세요.
+웹으로 참여하시는 분들은 [4-1. 웹에서 commit 하기](#4-1-웹에서-commit-하기)를,
+로컬에서 참여하시는 분들은 [4-2. 로컬에서 commit & push 하기](#4-2-로컬에서-commit--push-하기)를 참고해주세요.
 
-#### 웹에서 commit 하기
+#### 4-1. 웹에서 commit 하기
 
 ![step3](./images/step3.png)
 
@@ -127,7 +127,7 @@ export {
 `https://github.com/HashDigest/hanyang_open_source/tree/브랜치이름` 에 돌아가셔서 확인해보시면 작성하신 파일이 `data/`디렉토리에 반영되어 있을 것입니다.
 [Pull Request](#pull-request)로 가서 PR을 보내세요.
 
-#### 로컬에서 commit & push 하기
+#### 4-2. 로컬에서 commit & push 하기
 
 ![terminal2](./images/terminal2.png)
 
@@ -144,7 +144,7 @@ $ git commit -m "커밋 메시지 작성"
 $ git push origin 브랜치이름
 ```
 
-### Pull Request
+### 5. Pull Request
 
 `https://github.com/여러분ID/hanyang_open_source` 으로 가면 여러분이 추가한 파일들이 새로 만든 branch에 반영되어 있을 겁니다.
 이제 그 추가사항들을 여러분이 fork하신 원래의 repository에 반영해달라고 요청(Pull Request)해야합니다.
