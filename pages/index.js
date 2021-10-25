@@ -35,11 +35,14 @@ export default function Home() {
                 <title>한양오픈소스 프로젝트</title>
                 <meta name="description" content="한양대생들이 오픈소스에 기여하는 기회를 제공하기 위해 제작하였습니다."/>
                 <meta property="og:title" content="한양오픈소스 프로젝트"/>
-                <meta property="og:description" content="쓰고 싶은 아무 글이나 써서 오픈소스에 기여하세요. 한양대생들이 오픈소스에 친숙해질 수 있도록 제작했습니다."/>
-                <meta property="og:image" content="https://hanyang-open-source.vercel.app/meta.png"/>
+                <meta property="og:description" content="쓰고 싶은 아무 글이나 써서 오픈소스에 기여하세요!"/>
+                <meta property="og:image" content="/meta.png" />
+                <meta property="og:site_name" content="한양오픈소스 프로젝트" />
                 <meta name="twitter:description" content="한양대생들이 오픈소스에 기여하는 기회를 제공하기 위해 제작하였습니다."/>
                 <meta name="twitter:title" content="한양오픈소스 프로젝트"/>
-                <meta name="viewport" content="width=device-width"/>
+                <meta property="og:locale" content="ko_KR" />
+                <meta property="og:image:width" content="1200"/>
+                <meta property="og:image:height" content="630"/>
                 <link rel="icon" href="/hanyangLion.ico"/>
             </Head>
 
