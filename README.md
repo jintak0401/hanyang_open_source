@@ -5,17 +5,17 @@
 ## 목차
 * [이 프로젝트는 뭔가요?](#이-프로젝트는-뭔가요?)
 * [어떻게 참여하나요?](#어떻게-참여하나요?)
-  * [1.fork하기](#1.fork하기)
-  * [2.branch 생성하고 변경하기](#2.branch-생성하고-변경하기)
-     * [2-1.웹에서 branch생성하고 변경하기](#2&mdash1.웹에서-branch생성하고-변경하기)
-     * [2-2.로컬에서 branch생성하고 변경하기](#2\-2.로컬에서-branch-생성하고-변경하기)
-  * [3.데이터 추가하기](#3.데이터-추가하기)
-  * [4.commit 하기](#4.commit-하기)
-    * [4-1.웹에서 commit 하기](#4-1.웹에서-commit-하기)
-    * [4-2.로컬에서 commit & push 하기](#4-2.로컬에서-commit-&-push-하기)
-  * [5.Pull Request](#5.pull-request)
+  * [fork 하기](#fork-하기)
+  * [branch 생성하고 변경하기](#branch-생성하고-변경하기)
+     * [웹에서 branch 생성하고 변경하기](#웹에서-branch-생성하고-변경하기)
+     * [로컬에서 branch 생성하고 변경하기](#로컬에서-branch-생성하고-변경하기)
+  * [데이터 추가하기](#데이터-추가하기)
+  * [commit 하기](#commit-하기)
+    * [웹에서 commit 하기](#웹에서-commit-하기)
+    * [로컬에서 commit & push 하기](#로컬에서-commit-&-push-하기)
+  * [Pull Request](#pull-request)
 * [어디에서 어떻게 확인하나요?](#어디에서-어떻게-확인하나요?)
-* [이 외에 어떻게 기여하나요?](#기타)
+* [이 외에 어떻게 기여하나요?](#이-외에-어떻게-기여하나요?)
 ---
 ## 이 프로젝트는 뭔가요?
 
@@ -29,18 +29,18 @@
 ---
 ## 어떻게 참여하나요?
 
-### 1.fork하기
+### fork 하기
 
 ![fork](./images/fork.png)
 
 `jintak0401/hanyang_open_source`에서 우측의 fork 버튼을 눌러서 여러분의 repository에 `hanyang_open_source`를 여러분 repository에 fork하세요.
 
-### 2.branch 생성하고 변경하기
+### branch 생성하고 변경하기
 
-웹으로 참여하실 분들은 [2-1.웹에서 branch 생성하고 변경하기](#2-1.웹에서hbranch-생성하고-변경하기)를, 
-로컬에서 참여하실 분들은 [2-2.로컬에서 branch 생성하고 변경하기](#2-2.로컬에서-branch-생성하고-변경하기)를 참고해주세요.
+웹으로 참여하실 분들은 [웹에서 branch 생성하고 변경하기](#웹에서-branch-생성하고-변경하기)를, 
+로컬에서 참여하실 분들은 [로컬에서 branch 생성하고 변경하기](#로컬에서-branch-생성하고-변경하기)를 참고해주세요.
 
-#### 2-1.웹에서 branch 생성하고 변경하기
+#### 웹에서 branch 생성하고 변경하기
 
 ![make branch](./images/makeBranch.png)
 
@@ -52,7 +52,7 @@
 그 url에서 `.com`을 `.dev`으로 변경해주세요. 그러면 위 그림과 같은 웹 에디터를 보실 수 있습니다.
 이제 [3.데이터 추가하기](#3.데이터-추가하기)로 가서 파일을 추가하세요
 
-#### 2-2.로컬에서 branch 생성하고 변경하기
+#### 로컬에서 branch 생성하고 변경하기
 
 ![clone](./images/clone.png)
 
@@ -81,7 +81,7 @@ $ git checkout 브랜치이름
 
 clone한 hanyang_open_source 프로젝트를 원하는 IDE로 열어주세요.
 
-### 3.데이터 추가하기
+### 데이터 추가하기
 ![step1](./images/step1.png)
 
 `data/`디렉토리를 보시면 `template.js`라는 파일이 있습니다. 이 파일을 복사해서 `여러분ID.js` 파일을 만들어주세요.
@@ -114,20 +114,20 @@ export {
 }
 ```
 
-### 4.commit 하기
+### commit 하기
 
-웹으로 참여하시는 분들은 [4-1.웹에서 commit 하기](#4-1.웹에서-commit-하기)를,
-로컬에서 참여하시는 분들은 [4-2.로컬에서 commit & push 하기](#4-2.로컬에서-commit-&-push-하기)를 참고해주세요.
+웹으로 참여하시는 분들은 [웹에서 commit 하기](#웹에서-commit-하기)를,
+로컬에서 참여하시는 분들은 [로컬에서 commit & push 하기](#로컬에서-commit-&-push-하기)를 참고해주세요.
 
-#### 4-1.웹에서 commit 하기
+#### 웹에서 commit 하기
 
 ![step3](./images/step3.png)
 
 그리고 위의 순서대로 커밋 메시지를 작성하고 커밋하세요.
 `https://github.com/HashDigest/hanyang_open_source/tree/브랜치이름` 에 돌아가셔서 확인해보시면 작성하신 파일이 `data/`디렉토리에 반영되어 있을 것입니다.
-[5.Pull Request](#5.pull-request)로 가서 PR을 보내세요.
+[Pull Request](#pull-request)로 가서 PR을 보내세요.
 
-#### 4-2.로컬에서 commit & push 하기
+#### 로컬에서 commit & push 하기
 
 ![terminal2](./images/terminal2.png)
 
@@ -144,7 +144,7 @@ $ git commit -m "커밋 메시지 작성"
 $ git push origin 브랜치이름
 ```
 
-### 5.Pull Request
+### Pull Request
 
 `https://github.com/여러분ID/hanyang_open_source` 으로 가면 여러분이 추가한 파일들이 새로 만든 branch에 반영되어 있을 겁니다.
 이제 그 추가사항들을 여러분이 fork하신 원래의 repository에 반영해달라고 요청(Pull Request)해야합니다.
@@ -165,7 +165,7 @@ $ git push origin 브랜치이름
 
 ---
 
-## 기타
+## 이 외에 어떻게 기여하나요?
 
 이 외에도 기여하려고 하신다니... 정말 감사드립니다. 데이터 추가 외에 기여하실 수 있는 방법은 다음과 같습니다.
 
