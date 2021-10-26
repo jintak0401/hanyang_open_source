@@ -85,6 +85,7 @@
   font-size: 1.2em;
   font-weight: bold;
   width: 80%;
+
   &:focus {
     outline: none;
   }
@@ -112,10 +113,14 @@
 .msg {
   text-align: center;
   font-weight: bold;
-  font-size: 1.6em;
+  font-size: 1.4em;
   margin: max(20px, 5vh);
   color: white;
   line-height: 2;
+}
+
+.msg_example:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 800px) {
@@ -140,5 +145,9 @@
 
   .searchBar_icon___filled {
     @include searchBar_icon();
+  }
+
+  .msg {
+    font-size: 18px;
   }
 }
