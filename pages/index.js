@@ -7,6 +7,7 @@ import {useState} from "react";
 import useStateWithPromise from "../lib/useStateWithPromise";
 import logo from "@public/hanyangLion.png";
 import printAscii from "../lib/ascii";
+import * as gtag from "@lib/gtag";
 
 const data = require('@data');
 
@@ -22,6 +23,7 @@ export default function Home() {
     const route = () => {
         setInputId(inputId.trim()).then((trimId) => {
             if (!!data[trimId]) {
+                searchID(trimId);
                 Router.push(`/${trimId}`);
             } else {
                 setInvalidId(trimId);
@@ -34,6 +36,14 @@ export default function Home() {
         if ((++count) === 10) {
             Router.push('/easter-egg');
         }
+    }
+
+    const searchID = (id) => {
+        gtag.event({
+            action: "search",
+            category: "engagement",
+            label: id,
+        });
     }
 
     return (

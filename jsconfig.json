@@ -23,6 +23,9 @@
       "@data/*": [
         "data/*"
       ],
+      "@lib/*": [
+        "lib/*"
+      ],
       "@public/*": [
         "public/*"
       ]
