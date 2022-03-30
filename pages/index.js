@@ -73,15 +73,15 @@ export default function Home() {
                     {notInData ?
                         (
                             <>
-                                <div>"{invalidId}"로 작성된 글이 없네요...</div>
+                                <div><strong>{invalidId}</strong>&nbsp;로 작성된 글이 없네요...</div>
                                 <div>잘 입력하신게 맞나요???</div>
                             </>
                         ) :
                         <>
-                            <span>예시로 "</span>
+                            <span>예시로 </span>
                             <span className={styles.msg_example}
                                   onClick={async () => await setInputId('jintak0401')}>jintak0401</span>
-                            <span>"을 검색해보세요 </span>
+                            <span>을 검색해보세요 </span>
                         </>
                     }
                 </div>
